@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": ["now.joefriedl.net"],
   "builds": [
     { "src": "index.go", "use": "@now/go" }
   ]

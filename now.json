@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "cmd/server/main.go", "use": "@now/go" }
+  ]
+}

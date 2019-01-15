@@ -8,5 +8,7 @@ import (
 
 func Handler(w http.ResponseWriter, r *http.Request) {
   log.Printf("got a request! headers: %v", r.Header)
-  fmt.Fprintf(w, "hello :)")
+  for i := range("hello") {
+    fmt.Fprintf(w, "%v :)", i)
+  }
 }
